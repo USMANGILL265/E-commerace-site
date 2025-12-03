@@ -21,8 +21,7 @@ Ready for backend integration (API, database, authentication)
 
 🚀 Getting Started
 1. Clone the repository
-git clone https://github.com/your-github-username/e-commerace-site.git
-cd e-commerace-site
+git clone https://github.com/USMANGILL265/E-commerace-site
 
 2. Install Dependencies
 npm install
