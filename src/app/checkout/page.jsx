@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useRouter } from "next/navigation";
-import { clear } from "../redux/cartslice";
+import { clear } from "../../redux/cartSlice";
 
 export default function CheckoutPage() {
   const router = useRouter();

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { add, setStock } from "../../redux/cartslice";
+import { add, setStock } from "../../../redux/cartSlice";
 
 const ProductDetailPage = () => {
   const { id } = useParams();

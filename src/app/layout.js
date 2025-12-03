@@ -3,7 +3,7 @@ import "./globals.css";
 import Layout from "@/components/layout";
 import { AuthProvider } from "@/Context/Auth";
 import ToasterClient from "@/components/ToasterClient";
-import ReduxProvider from "./redux/ReduxProvider";
+import ReduxProvider from "../redux/ReduxProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

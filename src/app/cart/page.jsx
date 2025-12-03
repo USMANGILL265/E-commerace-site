@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { remove, clear } from "../redux/cartslice";
 import { FiTrash2, FiArrowLeft } from "react-icons/fi";
 import { useRouter } from "next/navigation"; // Next.js router
+import { clear, remove } from "@/redux/cartSlice";
 
 export default function CartPage() {
   const cartItems = useSelector((state) => state.cart.items || []);
